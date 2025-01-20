@@ -143,7 +143,21 @@ body{
     width: 100%;
 }
 /* Banner Section Style Ends */
-
+/* Marque Section style starts */
+.marque{
+    max-width: 72.5rem;
+    margin: 2rem auto;
+}
+marquee{
+    background-color: orange;
+    color: #01ACFD;
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px black;   
+}
+/* Marque Section style ends */
 
 
 /* Responsiveness Styles*/
