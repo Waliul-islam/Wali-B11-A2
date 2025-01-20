@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Google fonts */
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+  }
+.raleway-font{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+/* Shared Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+body{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+/* Navbar Styles starts */
+.navbar{
+    max-width: 72.5rem;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5                      rem;
+}
+.logo-text{
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    line-height: 1.9rem;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.home{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    color: orange;
+}
+.about{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    color:#01ACFD;
+}
+.facilities{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    color:#05D4DF;
+}
+.admission{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    color:#5D58EF;
+}
+.nav-btn{
+    color: white;
+    background-color: orange;
+    border-radius: 12px;
+    padding: 0.65rem 3.75rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    border: none;
+}
+.menu-bar{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: none;
+}
+
+
+
+
+/* Responsiveness Styles*/
+
+@media screen and (max-width:576px) {
+    .logo-text, .nav-links,.nav-btn{
+        display: none;
+    }
+    .menu-bar{
+        display: inline-block;
+    }
+    .navbar{
+        border-bottom: 1px solid orange;
+        margin: 1rem auto;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .logo-text, .nav-links{
+        display: none;
+    }
+    .menu-bar{
+        display: inline-block;
+    }                   
+}
