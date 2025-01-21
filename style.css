@@ -1,349 +1,431 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Google fonts */
-.quicksand-font{
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-  }
-.raleway-font{
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 /* Shared Styles*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
 }
-body{
-    max-width: 90rem;
-    margin: 0 auto;
+body {
+  max-width: 90rem;
+  margin: 0 auto;
 }
 
 /* Navbar Styles starts */
-.navbar{
-    max-width: 72.5rem;
-    margin: 2rem auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar {
+  max-width: 72.5rem;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
-.logo-text{
-    font-size: 2rem;
-    font-weight: 700;
-    color: black;
-    line-height: 1.9rem;
+.logo-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  line-height: 1.9rem;
 }
-.nav-links{
-    display: flex;
-    align-items: center;
-    gap: 1.8rem;
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
 }
 
-.home{
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 1.9rem;
-    color: orange;
+.home {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  color: orange;
 }
-.about{
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 1.9rem;
-    color:#01ACFD;
+.about {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  color: #01acfd;
 }
-.facilities{
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 1.9rem;
-    color:#05D4DF;
+.facilities {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  color: #05d4df;
 }
-.admission{
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 1.9rem;
-    color:#5D58EF;
+.admission {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  color: #5d58ef;
 }
-.nav-btn{
-    color: white;
-    background-color: orange;
-    border-radius: 12px;
-    padding: 0.65rem 3.75rem;
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 1.9rem;
-    border: none;
+.nav-btn {
+  color: white;
+  background-color: orange;
+  border-radius: 12px;
+  padding: 0.65rem 3.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+  border: none;
 }
-.menu-bar{
-    width: 2.5rem;
-    height: 2.5rem;
-    display: none;
+.menu-bar {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: none;
 }
 /* Navbar Styles Ends */
 
 /* Banner Section Style Starts */
-.banner{
-    max-width: 72.5rem;
-    margin: 2rem auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
+.banner {
+  max-width: 72.5rem;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
 }
-.banner-description{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    width: 55%;
+.banner-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 55%;
 }
-.banner-title{
-    font-size: 3.7rem;
-    font-weight: 700;
-    line-height: 3.8rem;
-    color: black;
+.banner-title {
+  font-size: 3.7rem;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: black;
 }
-.first{
-    color: orange;
+.first {
+  color: orange;
 }
-.last{
-    color: #01ACFD;
+.last {
+  color: #01acfd;
 }
-.banner-text{
-    font-size: 1.3rem;
-    font-weight: 400;
+.banner-text {
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 .banner-btn {
-    background-color: black;
-    color: white;
-    padding: 0.63rem 3rem;
-    border-radius: 12px;
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 1.75rem;
-    align-self: flex-start;
+  background-color: black;
+  color: white;
+  padding: 0.63rem 3rem;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  align-self: flex-start;
 }
-.banner-img{
-    width: 45%;   
+.banner-img {
+  width: 45%;
 }
-.banner-img img{
-    width: 100%;
+.banner-img img {
+  width: 100%;
 }
 /* Banner Section Style Ends */
 /* Marque Section style starts */
-.marque{
-    max-width: 72.5rem;
-    margin: 2rem auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 95%;
+.marque {
+  max-width: 72.5rem;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
 }
-marquee{
-    background-color: orange;
-    color: #01ACFD;
-    font-size: 3rem;
-    padding: 1rem;
-    font-weight: 700;
-    border-radius: 1rem;
-    box-shadow: 5px 5px 10px black;   
+marquee {
+  background-color: orange;
+  color: #01acfd;
+  font-size: 3rem;
+  padding: 1rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px black;
 }
 /* Marque Section style ends */
 /* Curriculum Section Starts */
-.curriculum{
-    background-image:url(assets/bg.png);
-    background-size:cover;
+.curriculum {
+  background-image: url(assets/bg.png);
+  background-size: contain;
 }
-.curriculum-container{
-    max-width: 72.5rem;
-    margin: 4rem auto;
+.curriculum-container {
+  max-width: 72.5rem;
+  margin: 4rem auto;
 }
-.section-title{
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 3.5rem;
-    text-align: center;
-    margin-bottom: 4rem;
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
 }
-.cards-container{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.8rem;
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.8rem;
 }
-.curriculum-card-1{
-    background-image: linear-gradient(#DEF5FF, #FFFFFF, #FFFFFF, #FFFFFF);
-    padding: 3.25rem 2.5rem;
-    border: none;
-    border-radius: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.8rem;
-    box-shadow: inset 0 0 28px .94px rgba(0, 0, 0, 0.05);
+.curriculum-card-1 {
+  background-image: linear-gradient(#def5ff, #ffffff, #ffffff, #ffffff);
+  padding: 3.25rem 2.5rem;
+  border: none;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+  box-shadow: inset 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
 }
-.card-title{
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1.85rem;
-    color: #202020;
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.85rem;
+  color: #202020;
 }
-.card-text{
-    font-size: 1rem;
-    text-align: center;
-    line-height: 1.8rem;
-    font-weight: 300;
+.card-text {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.8rem;
+  font-weight: 300;
 }
-.text-btn-1{
-    color: #64C8FF;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.8rem;
-    border: none;
-    background-color:transparent;
-    cursor:pointer;
+.text-btn-1 {
+  color: #64c8ff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
-.curriculum-card-2{
-    background-image: linear-gradient(#FFF4DC, #FFFFFF,#FFFFFF, #FFFFFF);
-    padding: 3.25rem 2.5rem;
-    border: none;
-    border-radius: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.8rem;
-    box-shadow: inset 0 0 28px .94px rgba(0, 0, 0, 0.05);
+.curriculum-card-2 {
+  background-image: linear-gradient(#fff4dc, #ffffff, #ffffff, #ffffff);
+  padding: 3.25rem 2.5rem;
+  border: none;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+  box-shadow: inset 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
 }
-.text-btn-2{
-    color: #F0AA00;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.8rem;
-    border: none;
-    background-color:transparent;
-    cursor:pointer;
+.text-btn-2 {
+  color: #f0aa00;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
-.curriculum-card-3{
-    background-image: linear-gradient(#EEE1FF, #FFFFFF, #FFFFFF, #FFFFFF);
-    padding: 3.25rem 2.5rem;
-    border: none;
-    border-radius: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.8rem;
-    box-shadow: inset 0 0 28px .94px rgba(0, 0, 0, 0.05);
+.curriculum-card-3 {
+  background-image: linear-gradient(#eee1ff, #ffffff, #ffffff, #ffffff);
+  padding: 3.25rem 2.5rem;
+  border: none;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+  box-shadow: inset 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
 }
-.text-btn-3{
-    color: #8700FF;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.8rem;
-    border: none;
-    background-color:transparent;
-    cursor:pointer;
+.text-btn-3 {
+  color: #8700ff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
-.arrow{
-    margin: 3.5rem auto;
-    text-align: center;
+.arrow {
+  margin: 3.5rem auto;
+  text-align: center;
 }
 /* Curriculum Section Ends */
 
-/* Responsiveness Styles*/
+/* Stories Section Starts */
 
-@media screen and (max-width:576px) {
-    .logo-text, .nav-links,.nav-btn{
-        display: none;
-    }
-    .menu-bar{
-        display: inline-block;
-    }
-    .navbar{
-        border-bottom: 1px solid orange;
-        margin: 1rem auto;
-        padding-bottom: 1.5rem;
-    }
-    .banner{
-        flex-direction: column;
-        margin: 2rem auto;
-    }
-    .banner-img{
-        width: 95%; 
-        order: 1;  
-    }
-    .banner-img img{
-        width: 100%;
-    }
-    .banner-description{
-        order: 2;
-        justify-content: center;
-        text-align: center;
-        width: 95%;
-    }
-    .banner-title{
-        font-size: 3rem;
-        
-    }
-    .banner-btn {
-        align-self:center;
-    }
-    .cards-container{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .curriculum-card-1, .curriculum-card-2, 
-    .curriculum-card-3 {
-        width: 95%;
-        justify-self: center;
-    }
-    .arrow{
-        display: none;
-    }
+/* Stories Section Starts */
+
+/* Footer Section Starts */
+footer {
+  background-color: #01acfd;
+  color: white;
+  padding: 8rem 10rem;
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.footer-logo-text {
+  color: white;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+.left-part p {
+  font-size: 1rem;
+  max-width: 25rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.center-part {
+}
+.footer-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-@media screen and (min-width:577px) and (max-width:992px) {
-    .logo-text, .nav-links{
-        display: none;
-    }
-    .menu-bar{
-        display: inline-block;
-    } 
-    .banner{
-        flex-direction: column;
-        margin: 2rem auto;
-    }
-    .banner-img{
-        width: 95%; 
-        order: 1;  
-    }
-    .banner-img img{
-        width: 100%;
-    }
-    .banner-description{
-        order: 2;
-        justify-content: center;
-        text-align: center;
-        width: 95%;
-    }   
-    .banner-btn {
-        align-self:center;
-    }  
-    .cards-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
+.footer-links li a {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 300;
+  cursor: pointer;
+}
+.footer-links li {
+  margin-bottom: 1.2rem;
+}
+
+.icons {
+  display: flex;
+  gap: 0.8rem;
+  cursor: pointer;
+}
+/* Footer Section Ends */
+
+/* Responsiveness Styles*/
+
+@media screen and (max-width: 576px) {
+  .logo-text,
+  .nav-links,
+  .nav-btn {
+    display: none;
+  }
+  .menu-bar {
+    display: inline-block;
+  }
+  .navbar {
+    border-bottom: 1px solid orange;
+    margin: 1rem auto;
+    padding-bottom: 1.5rem;
+  }
+  .banner {
+    flex-direction: column;
+    margin: 2rem auto;
+  }
+  .banner-img {
+    width: 95%;
+    order: 1;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .banner-description {
+    order: 2;
+    justify-content: center;
+    text-align: center;
+    width: 95%;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+  .banner-btn {
+    align-self: center;
+  }
+  .cards-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .curriculum-card-1,
+  .curriculum-card-2,
+  .curriculum-card-3 {
+    width: 95%;
+    justify-self: center;
+  }
+  .arrow {
+    display: none;
+  }
+
+  footer {
+    padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 3rem;
+  }
+  .footer-logo-text {
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .logo-text,
+  .nav-links {
+    display: none;
+  }
+  .menu-bar {
+    display: inline-block;
+  }
+  .banner {
+    flex-direction: column;
+    margin: 2rem auto;
+  }
+  .banner-img {
+    width: 95%;
+    order: 1;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .banner-description {
+    order: 2;
+    justify-content: center;
+    text-align: center;
+    width: 95%;
+  }
+  .banner-btn {
+    align-self: center;
+  }
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer {
+    padding: 4rem 3rem;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    gap: 2rem;
+  }
 }
