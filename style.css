@@ -176,7 +176,7 @@ marquee {
   font-weight: 700;
   line-height: 3.5rem;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 .cards-container {
   display: grid;
@@ -265,8 +265,131 @@ marquee {
 /* Curriculum Section Ends */
 
 /* Stories Section Starts */
+.stories {
+  background-image: url(assets/bg.png);
+  background-size: contain;
+  background-repeat: repeat;
+}
+.background-img{
+  width: 100%;
+  background: linear-gradient(transparent, rgba(254, 161, 1, 0.288));
+}
+.stories-container {
+  max-width: 72.5rem;
+  margin: 4rem auto;
+}
+.card-container{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.toddler-card{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 1.2rem;
+}
+.toddler-card img{
+  width: 100%;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+}
+.card-content{
+  padding: 2.5rem 2rem;
+}
+.toddler-card-title{
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+}
+.toddler-card-desc{
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+}
+.date{
+  background-color: #3CD8E8;
+  color: white;
+  border: none;
+  padding: 13px 18px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-radius: 24px;
+  position: relative;
+  bottom:58px;
+}
+.small-cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.small-card{
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+  border-radius: 1rem; 
+}
+.small-card img{
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.small-card-desc{
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  margin-left: 1.6rem;
+}
+.small-card-date{
+  background-color: #95B226;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-radius: 24px;
+  position: relative;
+  bottom:18%;
+  left: 8%;
+}
+.small-card-date2{
+  background-color: #5D58F0;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-radius: 24px;
+  position: relative;
+  bottom:18%;
+  left: 8%;
+}
+.view-all{
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  padding: 10px 60px;
+  border-radius: 12px;
+  position: relative;
+  left: 44%;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  cursor: pointer;
+  transition: .5s ease;
+}
 
-/* Stories Section Starts */
+.view-all:hover{
+  background-color: #5d58ef;
+}
+
+/* Stories Section Ends */
 
 /* Footer Section Starts */
 footer {
@@ -387,6 +510,12 @@ footer {
     font-size: 1.9rem;
     font-weight: 700;
     line-height: 2rem;
+  }
+  .toddler-card{
+    display: none;
+  }
+  .view-all{
+    left: 36%;
   }
 }
 
