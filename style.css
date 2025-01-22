@@ -375,7 +375,7 @@ marquee {
   font-weight: 400;
   border-radius: 24px;
   position: relative;
-  bottom: 18%;
+  bottom: 16%;
   left: 8%;
 }
 .small-card-date2 {
@@ -387,7 +387,7 @@ marquee {
   font-weight: 400;
   border-radius: 24px;
   position: relative;
-  bottom: 18%;
+  bottom: 16%;
   left: 8%;
 }
 .view-all {
@@ -548,9 +548,12 @@ footer {
   .small-cards {
     gap: 0.6rem;
   }
-  .small-card-date {
-    bottom: 15%;
+  .small-card-date, .small-card-date2 {
+    bottom: 14%;
     left: 8%;
+  }
+  marquee {
+    font-size: 2rem;
   }
 }
 
